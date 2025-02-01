@@ -12,7 +12,7 @@ export default function App() {
       <main>
         <Dictionary />
         </main>
-      <footer className='App-footer'><small>Coded by Catarina S-A and is hosted on <a href="https://github.com/casakc/react-add-on-week-1" target="_blank">GitHub</a> and <a href="https://react-add-on-week-1.netlify.app/" target="_blank">Netlifly</a></small></footer>
+      <footer className='App-footer'><small>Coded by Catarina S-A and is hosted on <a href="https://github.com/casakc/react-add-on-week-1" target="_blank" rel="noreferrer">GitHub</a> and <a href="https://react-add-on-week-1.netlify.app/" target="_blank" rel="noreferrer">Netlifly</a></small></footer>
     </div>
     </div>
   );
