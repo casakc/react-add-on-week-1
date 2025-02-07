@@ -3,7 +3,7 @@ import "./Synonyms.css";
 
 export default function Synonyms (props){
     if (props.synonyms) {
-        return <div className="Synonyms"><strong>Synonym:</strong> {props.synonyms.map(function (synonym, index) {
+        return <div className="Synonyms"><strong>synonym:</strong> {props.synonyms.map(function (synonym, index) {
             return <span key={index}>{synonym} {index < props.synonyms.length - 1 ? " | " : ""}</span>;
         })
     }</div>
