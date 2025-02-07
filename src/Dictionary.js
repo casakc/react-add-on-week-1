@@ -42,7 +42,7 @@ if (loaded) {
     <section>
     <form onSubmit={handleSubmit}>
       <input type="search" onChange={handleKeywordChange} title="Search for a word" 
-        placeholder="Please type word" />  
+        placeholder="Hello, please type word" />  
     </form>
     </section>
     <Results results={results} />
