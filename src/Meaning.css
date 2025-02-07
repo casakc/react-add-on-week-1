@@ -1,0 +1,9 @@
+.Meaning .Definition {
+font-size: 20px;
+}
+
+.Meaning .Example {
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.7;
+}

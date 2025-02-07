@@ -1,2 +1,21 @@
-.Dictionary {
-background-color: white;}
+.Dictionary section {
+background: rgba(255, 255, 0, 0.8);
+box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+margin: 20px 0;
+padding: 30px;
+}
+
+.Dictionary input {
+border: 1px solid darkblue;
+border-radius: 5px;
+color: darkblue;
+padding: 5px 10px;
+width: 100%;
+}
+
+.Dictionary input[type="search"]:focus {
+border: 2px solid darkblue;
+outline: none;
+}
+
